@@ -2,125 +2,97 @@
     margin: 0;
 }
 
+
+
+
 header{
-overflow: hidden;
+   background-color: aquamarine;
+   text-align: center;
+   height:120px ;
+   font-size: 30px;
 }
-
-.logo{
-    width: 30%;
-    height: 100px;
-    background-color: burlywood;
-    float: left;
-    font-size: 30px;
-    text-align: center;
-
-}
-
-
-
-.menu{
-width: 70%;
-height: 100px;
-background-color: aqua;
-float: left;
-font-size: 30px;
-text-align: center;
-}
-
-.bar{
+.banner{
+    height: 250px;
     width: 100%;
-    height: 90px;
-    background-color: rgb(210, 30, 147);  
+    background-color: cadetblue;
     text-align: center;
-    font-size: 30px;
-} 
+    font-size: 20px;
+}
 
-.content{
+.article{
+    overflow: hidden;
 
 }
 
-.left-content{
-width: 30%;
-height: 400px;
-background-color: cornflowerblue;
-float: left;
+.left{
+    height: 200px;
+    width: 50%;
+    background-color: brown;
+    float: left;
 
+}
+.right{
+    height: 200px;
+    width: 50%;
+    background-color: rgb(84, 31, 31);
+    float: right;
 
 
 }
 
-.middle-content{
- width: 40%;
-height: 400px;
-background-color: rgb(100, 237, 196);
-float: left;
-}
-
-
-
-
-
-.right-content{
-    width: 30%;
-height: 400px;
-background-color: rgb(235, 156, 20);
-float: left;
-}
-
-
-
-.middle-content{
+.featcher{
     overflow: hidden;
 }
- .top{
-height: 20%;
-width: 100%;
-background-color: blueviolet;
-   
-}
 
-.center{
-height: 60%;
-width: 100%;
-background-color: rgb(214, 36, 194);
-   
-   
-}
-
-
-.bottom{
- 
-  height: 20%;
-  width: 100%;
-  background-color: rgb(43, 226, 80);
-     
-}
-.center{
-   overflow: hidden;
+.featcher-1{
+    height: 200px;
+    width: 33.3%;
+    background-color: coral;
+    float: left;
 
 }
 
-.left-center{
-height: 100%;
-width: 50%;
-background-color: cyan;
-float: left;
+.featcher-2{
+    height: 200px;
+    width: 33.3%;
+    background-color: rgb(129, 49, 20);
+    float: left;
+
 }
-.right-center{
-width: 50%;
-height: 100%;
-background-color: chocolate;
-float: left;
+
+.featcher-3{
+    height: 200px;
+    width: 33.3%;
+    background-color: rgb(223, 71, 16);
+    float: left;}
+
+.ads{
+overflow: hidden;
 }
+.left-ads{
+    width: 70%;
+    height: 100px;
+    background-color: rgb(26, 146, 150);
+    float: left;
+
+}
+.right-ads{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(140, 213, 217);
+    float: right;
+    color: rgb(2, 3, 3);
+}
+
 footer{
+    height: 50px;
     width: 100%;
-    height: 50%;
-    background-color: rgb(4, 0, 0);
-    color: aliceblue;
+    background-color: black;
+    color: azure;
     text-align: center;
-    font-family: sans-serif;
-    font-size: 30px;
 }
+
+
 
 
 
